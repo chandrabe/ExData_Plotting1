@@ -1,7 +1,7 @@
 #Load data
 source("load_data.R")
 
-#As my windows system is not english, i need to force the locale so the name of the days will be in english on the plot
+#As my Windows system is not english, i need to force the locale so the name of the days will be in english on the plot
 Sys.setlocale("LC_ALL", "english")
 
 #open png graphic device with size 480*480
